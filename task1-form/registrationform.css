@@ -1,0 +1,45 @@
+h3{
+  text-align: center;
+}
+body {
+  background-image: url("registration.jpg");
+  background-size: 100%;
+  background-position: 50% 50%;
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+}
+.registration .entry .leftside {
+  width: 120px;
+  display: inline-block;
+}
+.registration .entry .rightside{
+  display: inline-block;
+  width: 80%;
+}
+.registration .entry .radiorightside{
+  display: inline-block;
+  vertical-align: middle;
+
+}
+#submitbutton {
+  display:block;
+   width:100px;
+   margin:0 auto;
+   border-radius: 5px;
+}
+
+@media screen and (min-width: 480px) {
+
+.registration .entry  .leftside {
+    width: 200px;
+     float: left;
+    display: inline-block;
+    position: relative;
+   }
+.registration .entry .rightside {
+    display: inline-block;
+    width: auto;
+    position: relative;
+  }
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="form-style.css">
+
+    <title> Login-form </title>
+  </head>
+  <body>
+
+    <form class="login" action="registrationform.html">
+      <h3> User Login!!! </h3>
+      <pre><br/> <br/> <br/></pre>
+      <div class="field">
+        <label class="leftside">User Name: </label>
+        <input class="rightside" type="text" id="Name" placeholder="Full Name" required ><br/>
+      </div>
+      <pre> <br/> </pre>
+      <div class="field">
+        <label class="leftside" >Email id: </label>
+        <input class="rightside" type="email" id="Email" placeholder=" Valid Mail id" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required> <br/>
+      </div>
+      <pre> <br/> </pre>
+      <div class="field">
+        <label class="leftside">Password: </label>
+        <input class="rightside" type="password" id="Password" pattern=".{6,}" title="6 or more characters" placeholder="Password of 6 or more characters" required><br/>
+      </div>
+      <pre> <br/> </pre>
+      <pre><br/> <br/> <br/></pre>
+      <button type=button onclick="myFunction()"> Log in </button>
+    <!--  <button type="submit">Log in</button> -->
+
+    </form>
+
+    <script src="validation.JS" type="text/javascript"></script>
+
+  </body>
+</html>

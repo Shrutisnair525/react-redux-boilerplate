@@ -1,0 +1,66 @@
+body {
+  background-image: url("login.jpeg");
+  background-size: 100%;
+  background-position: 50% 50%;
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+}
+h3{
+  text-align: center;
+}
+
+.login .field .leftside {
+  color: black;
+  width: 120px;
+  display: inline-block;
+}
+.login .field .rightside{
+  display: inline-block;
+  width: 80%;
+  border-radius: 5px;
+}
+button {
+  display:block;
+   width:100px;
+   margin:0 auto;
+   border-radius: 5px;
+}
+@media screen and (min-width: 480px) {
+  body{
+    background-image: url("login.jpeg");
+    background-size: 100%;
+    background-position: 50% 50%;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+  }
+  .login {
+   display: -webkit-flex;
+   display: -moz-flex;
+    display: flex;
+   -webkit-justify-content: center;
+    justify-content: center;
+    -moz-justify-content: center;
+    align-items: center;
+     -webkit-align-items: center;
+     -moz-align-items: center;
+    -webkit-flex-direction: column;
+     flex-direction: column;
+     -moz-flex-direction: column;
+  }
+.login .field  .leftside {
+    width: 150px;
+     float: left;
+    display: inline-block;
+    position: relative;
+    height: 22px;
+   }
+.login .field .rightside {
+    display: inline-block;
+    width: auto;
+    position: absolute;
+    border-radius: 5px;
+    height: 22px;
+  }
+}
